@@ -7,6 +7,7 @@ export class Dish {
     public featured: boolean,
     public label: string,
     public price: string,
-    public description: string
+    public description: string,
+    public comments: any[] = []   
   ) {}
 }
