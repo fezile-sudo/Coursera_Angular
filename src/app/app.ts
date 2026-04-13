@@ -1,18 +1,23 @@
 import { Component, signal } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { Menu } from './menu/menu';
+import { Header } from './header/header';
+import { Footer } from './footer/footer';
 import { Dishservice } from './services/dish';
+import { RouterOutlet } from '@angular/router';
+
+
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     MatToolbarModule,
-    Menu
+    Header,
+    Footer,
+    RouterOutlet
   ],
-  providers: [
-    Dishservice
-  ],
+  
   templateUrl: './app.html',
   styleUrls: ['./app.scss'] 
 })
