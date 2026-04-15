@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
-import { Dishservice } from './services/dish';
 import { RouterOutlet } from '@angular/router';
 
 
