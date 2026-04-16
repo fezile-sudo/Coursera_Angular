@@ -1,0 +1,1 @@
+{"version":3,"sources":["contact.scss"],"names":[],"mappings":"AAAA,YACE,MAAO,IAGT,YACE,MAAO,IAGT,WACE,MAAO","file":"contact.min.css","sourcesContent":[".full-width {\r\n    width: 95%\r\n}\r\n\r\n.half-width {\r\n    width: 45%\r\n}\r\n\r\n.form-size {\r\n    width: 75%\r\n}"]}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["contact.scss"],"sourcesContent":[".full-width {\r\n    width: 95%\r\n}\r\n\r\n.half-width {\r\n    width: 45%\r\n}\r\n\r\n.form-size {\r\n    width: 75%\r\n}"],"file":"contact.css"}
