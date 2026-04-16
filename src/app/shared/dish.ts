@@ -8,6 +8,6 @@ export class Dish {
     public label: string,
     public price: string,
     public description: string,
-    public comments: any[] = []   
+    public comments: any[] = []
   ) {}
 }

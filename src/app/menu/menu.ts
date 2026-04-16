@@ -6,6 +6,8 @@ import { MatCardModule } from '@angular/material/card';
 import { Dishdetail } from '../dishdetail/dishdetail';
 import { Dish } from '../shared/dish';
 import { DISHES } from '../shared/dishes';
+import { RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-menu',
@@ -15,7 +17,9 @@ import { DISHES } from '../shared/dishes';
     MatGridListModule,
     MatGridTile,
     MatCardModule,
-    Dishdetail
+    Dishdetail,
+    RouterModule,
+    
   ],
   templateUrl: './menu.html',
   styleUrls: ['./menu.scss']

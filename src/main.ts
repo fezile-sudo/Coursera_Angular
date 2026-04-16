@@ -7,6 +7,7 @@ import { routes } from './app/app.routes';
 bootstrapApplication(App, {
   providers: [
     provideAnimations(),
-    provideRouter(routes)
+    provideRouter(routes),
+    
   ]
 });
