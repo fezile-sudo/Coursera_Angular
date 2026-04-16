@@ -13,17 +13,18 @@ import { LoginComponent } from '../login/login';
     RouterModule
   ],
   templateUrl: './header.html',
-  styleUrl: './header.scss',
+  styleUrls: ['./header.scss'],
 })
 export class Header {
 
   constructor(public dialog: MatDialog ) { }
 
   openLoginForm() {
-    this.dialog.open(LoginComponent, {
-      width: '500px',
-      height: '450px'
-    });
-  }
+  console.log('opening dialog...');
+  this.dialog.open(LoginComponent, {
+    width: '500px',
+    height: '450px'
+  });
+}
 
 }

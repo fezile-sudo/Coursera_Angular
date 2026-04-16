@@ -5,6 +5,10 @@ import { Footer } from './footer/footer';
 import { RouterOutlet } from '@angular/router';
 import { MatDialogModule } from '@angular/material/dialog';
 import { LoginComponent } from './login/login';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms'; 
 
 
 @Component({
@@ -16,7 +20,11 @@ import { LoginComponent } from './login/login';
     Footer,
     RouterOutlet,
     MatDialogModule,
-    LoginComponent
+    LoginComponent,
+    MatFormFieldModule, 
+    MatInputModule,
+    MatCheckboxModule,
+    FormsModule
   ],
   
   templateUrl: './app.html',
