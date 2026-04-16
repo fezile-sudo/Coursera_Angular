@@ -3,8 +3,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
 import { RouterOutlet } from '@angular/router';
-
-
+import { MatDialogModule } from '@angular/material/dialog';
+import { LoginComponent } from './login/login';
 
 
 @Component({
@@ -14,12 +14,17 @@ import { RouterOutlet } from '@angular/router';
     MatToolbarModule,
     Header,
     Footer,
-    RouterOutlet
+    RouterOutlet,
+    MatDialogModule,
+    LoginComponent
   ],
   
   templateUrl: './app.html',
   styleUrls: ['./app.scss'] 
 })
+
 export class App {
   protected readonly title = signal('conFusion');
+
+ 
 }
