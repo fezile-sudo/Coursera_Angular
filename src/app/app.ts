@@ -10,8 +10,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 @Component({
@@ -29,8 +31,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCheckboxModule,
     FormsModule,
     MatSelectModule,
+    MatAutocompleteModule,
     MatSlideToggleModule,
     ReactiveFormsModule
+   
   ],
   
   templateUrl: './app.html',

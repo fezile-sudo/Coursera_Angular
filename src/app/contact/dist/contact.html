@@ -39,9 +39,6 @@
     <h3>Send us your Feedback</h3>
     <p>{{ feedbackForm.value | json }} {{ feedbackForm.status | json }}</p>
 
-
-    
-
     <form novalidate [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
       <p>
         <mat-form-field class="half-width">
